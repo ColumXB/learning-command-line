@@ -1,0 +1,12 @@
+name: basic
+
+on: push
+
+jobs:
+  stuff:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Basic script
+      run: |
+        javac main.java
+        java main.java
