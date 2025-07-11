@@ -8,5 +8,6 @@ jobs:
     steps:
     - name: Basic script
       run: |
+        ls
         javac main.java
         java main.java
