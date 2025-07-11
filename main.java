@@ -4,7 +4,7 @@ public class main {
     System.out.println(basic(2));
   }
 
-  public int basic(int num) {
+  public static int basic(int num) {
     return num * 2;
   }
 }
